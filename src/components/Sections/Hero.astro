@@ -2,9 +2,19 @@
 import Mail from '@/icons/Mail.astro';
 import { basics } from '../../cv.json';
 import Section from '@/components/Section.astro';
+import Phone from '@/icons/Phone.astro'
+import GitHub from '@/icons/GitHub.astro';
+import LinkedIn from '@/icons/LinkedIn.astro';
+import WorldMap from '@/icons/WorldMap.astro';
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region} = location
+
+const SOCIAL_ICONS: Record <string, any> = {
+    GitHub,
+    LinkedIn
+}
+
 ---
 
 <Section>
@@ -13,7 +23,7 @@ const { city, region} = location
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                <!-- Escoger Icono -->
+                <WorldMap />
                  {city}, {region}
             </span>
             <footer>
@@ -27,9 +37,29 @@ const { city, region} = location
                 }
                 {
                     phone && (
-                        <a href={`tel:${phone}`}
-                        title={`Llamar por telefono a ${name} al numero ${phone}`}></a>
+                        <a
+                        href={`tel:${phone}`}
+                        title={`Llamar por telefono a ${name} al numero ${phone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
                     )
+                }
+                {
+                    profiles.map(({network, url, username}) => {
+                        const Icon = SOCIAL_ICONS[network]
+
+                        return(
+                            <a href={url}
+                            title={`Visitar el perfil de ${name} en ${network}`}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <Icon />
+                            </a>
+                        )
+                    })
                 }
             </footer>
         </div>
@@ -40,5 +70,67 @@ const { city, region} = location
 </Section>
 
 <style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
 
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+
+    img{
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 130px;
+        border-radius: 6px;
+    }
+    span{
+        color:#666;
+        display: flex;
+        align-items: center;
+        gap: .25rem;
+        font-size: .85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    footer{
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+
+    footer a{
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border-radius: 6px;
+        transition: all .3s ease;
+    }
+
+    foother a:hover{
+        background-color: #eee;
+    }
 </style>
