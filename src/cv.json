@@ -6,7 +6,7 @@
       "email": "agustindatilio@gmail.com",
       "phone": "+54 9 11 26320824",
       "url": "https://agustindattilio-blog.netlify.app/",
-      "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+      "summary": "+2 años de experiencia como programador web, especializado en el desarrollo de aplicaciones modernas utilizando tecnologías como React, Node.js y Astro. +3 años de experiencia en reparaciones electrónicas, abarcando desde celulares y consolas hasta notebooks y computadoras, ofreciendo soluciones técnicas confiables. Apasionado por la tecnología, siempre busco combinar mis habilidades en programación y hardware para crear proyectos innovadores y útiles. Con enfoque en la mejora continua, disfruto aprender y aplicar nuevas herramientas para resolver desafíos complejos.",
       "location": {
         "address": "",
         "postalCode": "1684",
@@ -29,35 +29,52 @@
     },
     "work": [
       {
+        "name": "4iDigital",
+        "position": "Soporte IT Nivel 2",
+        "startDate": "2024-01",
+        "endDate": null,
+        "summary": "Encargado de atender y resolver solicitudes de clientes a través de un sistema de tickets, utilizando herramientas como SQL, Postman y Linux para garantizar soluciones eficientes.",
+        "highlights": [
+          "Análisis de datos con SQL",
+          "Pruebas y depuración de APIs con Postman",
+          "Administración de sistemas en Linux"
+        ]
+      },
+      {
         "name": "Sia Interactive",
         "position": "Analista de Operaciones",
         "url": "https://www.siainteractive.com/",
         "startDate": "2024-05",
         "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "summary": "Encargado de la carga y mantenimiento de templates en pantallas de locales gastronómicos mediante DexManager. Coordinación con equipos interdepartamentales para garantizar la correcta implementación de contenidos visuales.",
         "highlights": [
-          "Started the company"
+          "Optimización de procesos para agilizar la carga de contenido",
+          "Soporte técnico básico a usuarios en el manejo de DexManager",
+          "Asegurar consistencia visual y funcionalidad en todas las pantallas"
         ]
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+        "name": "Prisma Medios de Pago",
+        "position": "Analista de Usuarios & Sistemas Tecnológicos",
+        "startDate": "2023-03",
+        "endDate": "2024-05",
+        "summary": "Responsable de brindar soporte técnico, administración de redes y gestión de usuarios mediante herramientas como Active Directory y Office 365.",
         "highlights": [
-          "Started the company"
+          "Resolución de incidentes críticos y comunes",
+          "Migración de perfiles de usuario con Intune AutoPilot",
+          "Administración de redes inalámbricas y configuración de correos electrónicos"
         ]
       },
       {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "name": "Alpaelectronics",
+        "position": "Técnico en Reparación de Hardware y Software",
+        "startDate": "2021-08",
+        "endDate": "2023-01",
+        "summary": "Especializado en reparación de PCs, notebooks y smartphones, además de gestión de clientes e inventarios.",
         "highlights": [
-          "Started the company"
+          "Reparación de equipos mediante técnicas de microsoldadura",
+          "Recuperación de datos y reinstalación de sistemas operativos",
+          "Preparación de presupuestos y atención personalizada a clientes"
         ]
       }
     ],

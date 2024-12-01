@@ -1,7 +1,20 @@
 ---
 import Section from "@/components/Section.astro"
+
+import {work} from "@/cv.json"
 ---
 
 <Section title="Experience">
-
-</Section>
+    <ul>
+      {work.map(({ name, startDate, endDate, position, summary, highlights }) => {
+        return (
+          <li>
+            <h3>{name}</h3>
+            <h4>{position}</h4>
+            <p>{summary}</p>
+          </li>
+        );
+      })}
+    </ul>
+  </Section>
+  
