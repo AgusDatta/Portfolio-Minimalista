@@ -7,10 +7,12 @@ import Experience from '@/components/Sections/Experience.astro';
 import Hero from '@/components/Sections/Hero.astro';
 import Skills from '@/components/Sections/Skills.astro';
 import Projects from '@/components/Sections/Projects.astro';
+import {basics} from '@/cv.json'
 
+const {name, label} = basics
 ---
 
-<Layout title="Minimalist Portfolio">
+<Layout title={`Portafolio de ${name} - ${label}`}>
 	<main>
 		<Hero />
 		<About />
