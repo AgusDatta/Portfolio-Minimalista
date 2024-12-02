@@ -7,6 +7,7 @@ import GitHub from '@/icons/GitHub.astro';
 import LinkedIn from '@/icons/LinkedIn.astro';
 import WorldMap from '@/icons/WorldMap.astro';
 import WhatsApp from '@/icons/WhatsApp.astro';
+import { boolean } from 'astro/zod';
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region} = location
@@ -15,6 +16,11 @@ const SOCIAL_ICONS: Record <string, any> = {
     GitHub,
     LinkedIn
 }
+
+const linkedInfo = profiles.find(({ network })=> network === "LinkedIn")
+const linkedUrl = linkedInfo?.url 
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join("•")
 
 ---
 
@@ -27,7 +33,10 @@ const SOCIAL_ICONS: Record <string, any> = {
                 <WorldMap />
                  {city}, {region}
             </span>
-            <footer>
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
                 {
                     email && (
                         <a href={`mailto:${email}`} 
@@ -114,6 +123,8 @@ const SOCIAL_ICONS: Record <string, any> = {
     }
 
     footer{
+        color: #555;
+        font-size: 0.65rem;
         display: flex;
         gap: 4px;
         margin-top: 8px;
