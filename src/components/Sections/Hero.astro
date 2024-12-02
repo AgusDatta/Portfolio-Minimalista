@@ -2,10 +2,11 @@
 import Mail from '@/icons/Mail.astro';
 import { basics } from '../../cv.json';
 import Section from '@/components/Section.astro';
-import Phone from '@/icons/Phone.astro'
+import Phone from '@/icons/WhatsApp.astro'
 import GitHub from '@/icons/GitHub.astro';
 import LinkedIn from '@/icons/LinkedIn.astro';
 import WorldMap from '@/icons/WorldMap.astro';
+import WhatsApp from '@/icons/WhatsApp.astro';
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region} = location
@@ -38,12 +39,12 @@ const SOCIAL_ICONS: Record <string, any> = {
                 {
                     phone && (
                         <a
-                        href={`tel:${phone}`}
-                        title={`Llamar por telefono a ${name} al numero ${phone}`}
+                        href={`https://wa.me/${phone}?text=${encodeURIComponent("Hola Agustín, vengo de ver tu Curriculum Web...")}`}
+                        title={`Enviar mensaje por WhatsApp a ${name} al número ${phone}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                            <Phone />
+                        <WhatsApp />
                         </a>
                     )
                 }

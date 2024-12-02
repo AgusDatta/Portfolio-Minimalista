@@ -4,7 +4,7 @@
       "label": "Desarrollador de Software con +1 año de experiencia y +2 años de Soporte IT",
       "image": "/src/me.jpg",
       "email": "agustindatilio@gmail.com",
-      "phone": "+54 9 11 26320824",
+      "phone": "+5491126320824",
       "url": "https://agustindattilio-blog.netlify.app/",
       "summary": "+2 años de experiencia como programador web, especializado en el desarrollo de aplicaciones modernas utilizando tecnologías como React, Node.js y Astro. +3 años de experiencia en reparaciones electrónicas, abarcando desde celulares y consolas hasta notebooks y computadoras, ofreciendo soluciones técnicas confiables. Apasionado por la tecnología, siempre busco combinar mis habilidades en programación y hardware para crear proyectos innovadores y útiles. Con enfoque en la mejora continua, disfruto aprender y aplicar nuevas herramientas para resolver desafíos complejos.",
       "location": {
@@ -31,7 +31,7 @@
       {
         "name": "4iDigital",
         "position": "Soporte IT Nivel 2",
-        "startDate": "2024-01",
+        "startDate": "2024-11",
         "endDate": null,
         "summary": "Encargado de atender y resolver solicitudes de clientes a través de un sistema de tickets, utilizando herramientas como SQL, Postman y Linux para garantizar soluciones eficientes.",
         "highlights": [
@@ -45,7 +45,7 @@
         "position": "Analista de Operaciones",
         "url": "https://www.siainteractive.com/",
         "startDate": "2024-05",
-        "endDate": null,
+        "endDate": "2024-11",
         "summary": "Encargado de la carga y mantenimiento de templates en pantallas de locales gastronómicos mediante DexManager. Coordinación con equipos interdepartamentales para garantizar la correcta implementación de contenidos visuales.",
         "highlights": [
           "Optimización de procesos para agilizar la carga de contenido",
@@ -78,27 +78,17 @@
         ]
       }
     ],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "institution": "ISTEA | Instituto Superior Tecnologico Empresarial Argentino",
+      "url": "https://www.istea.edu.ar/tecnicatura-superior-en-desarrollo-de-software",
+      "summary" : "Formación especializada en el diseño, desarrollo y mantenimiento de aplicaciones y sistemas informáticos. Capacitación en evaluación de requerimientos tecnológicos, testing, gestión de equipos de desarrollo y dirección de proyectos, con enfoque en diversas plataformas y lenguajes de programación. Orientada a la adaptación a nuevas tecnologías y entornos laborales.",
+      "area": "Tecnico Superior en Desarrollo de Software",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "startDate": "2023-05",
+      "endDate": null,
       "score": "4.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        null
       ]
     }],
     "awards": [{
@@ -120,85 +110,155 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [
-      {
-        "name": "HTML",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      }
-    ],
+"skills": [
+  {
+    "name": "HTML",
+    "level": "Master",
+    "keywords": [
+      "Desarrollo Web", "Frontend"
+    ]
+  },
+  {
+    "name": "CSS",
+    "level": "Master",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "Diseño Responsive"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "level": "Master",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+    ]
+  },
+  {
+    "name": "React",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+    ]
+  },
+  {
+    "name": "Next.js",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+    ]
+  },
+  {
+    "name": "Tailwind",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+    ]
+  },
+  {
+    "name": "Node.js",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+    ]
+  },
+  {
+    "name": "Express.js",
+    "level": "Avanzado",
+    "keywords": [
+      "Backend", "Node.js", "API REST", "Servidor"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "level": "Avanzado",
+    "keywords": [
+      "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+    ]
+  },
+  {
+    "name": "PostgreSQL",
+    "level": "Intermedio",
+    "keywords": [
+      "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "level": "Intermedio",
+    "keywords": [
+      "Bases de Datos", "NoSQL", "Backend", "Almacenamiento de Datos"
+    ]
+  },
+  {
+    "name": "Docker",
+    "level": "Intermedio",
+    "keywords": [
+      "Contenedores", "DevOps", "Despliegue", "CI/CD"
+    ]
+  },
+  {
+    "name": "Git",
+    "level": "Avanzado",
+    "keywords": [
+      "Control de Versiones", "Colaboración", "Código Fuente"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "level": "Avanzado",
+    "keywords": [
+      "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+    ]
+  },
+  {
+    "name": "Linux",
+    "level": "Intermedio",
+    "keywords": [
+      "Sistemas Operativos", "CLI", "Desarrollo", "Servidor"
+    ]
+  },
+  {
+    "name": "Strapi",
+    "level": "Intermedio",
+    "keywords": [
+      "CMS", "Desarrollo Web", "Contenido Dinámico"
+    ]
+  },
+  {
+    "name": "Astro",
+    "level": "Avanzado",
+    "keywords": [
+      "Desarrollo Web", "Frontend", "Framework", "Generación Estática"
+    ]
+  },
+  {
+    "name": "Netlify",
+    "level": "Avanzado",
+    "keywords": [
+      "Hosting", "Despliegue", "Frontend", "CDN"
+    ]
+  },
+  {
+    "name": "FastAPI",
+    "level": "Intermedio",
+    "keywords": [
+      "Backend", "Python", "API REST", "Desarrollo Web"
+    ]
+  },
+  {
+    "name": "Visual Studio Code",
+    "level": "Master",
+    "keywords": [
+      "Editor de Código", "Desarrollo", "Extensiones", "Productividad"
+    ]
+  }
+],
     "languages": [
       {
         "language": "Spanish",
@@ -220,68 +280,36 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [
-      {
-        "name": "mars.codes",
-        "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
-        "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
-        ],
-        "url": "https://mars.codes"
-      },
-      {
-        "name": "AdventJS",
-        "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-        "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
-        ],
-        "url": "https://adventjs.dev"
-      },
-      {
-        "name": "Codember",
-        "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
-        "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
-        ],
-        "url": "https://codember.dev"
-      },
-      {
-        "name": "codi.link",
-        "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
-        "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
-        ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
-      }
-    ]
+  "projects": [
+    {
+      "name": "TotaComputación",
+      "isActive": true,
+      "description": "Página web para mi emprendimiento de servicios técnicos, donde los usuarios pueden ver precios de reparaciones y solicitar servicios con un botón.",
+      "highlights": [
+        "Fácil acceso a servicios",
+        "Interfaz intuitiva"
+      ],
+      "url": "https://totacomputacion.netlify.app/"
+    },
+    {
+      "name": "SpaceX Launches",
+      "isActive": true,
+      "description": "Plataforma que muestra información detallada sobre los lanzamientos de SpaceX, incluyendo el resultado y descripción de cada misión.",
+      "highlights": [
+        "Actualizaciones en tiempo real",
+        "Información detallada"
+      ],
+      "url": "https://astrospacex-launches.netlify.app/"
+    },
+    {
+      "name": "Fake Shop",
+      "isActive": true,
+      "description": "E-commerce ficticio donde los usuarios pueden explorar productos, ver precios y simular compras.",
+      "highlights": [
+        "Interfaz de tienda online",
+        "Productos ficticios"
+      ],
+      "url": "https://fakeshopistea.netlify.app/"
+    }
+  ]
   }
