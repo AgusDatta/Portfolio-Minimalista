@@ -293,7 +293,7 @@
     },
     {
       "name": "SpaceX Launches",
-      "isActive": true,
+      "isActive": false,
       "description": "Plataforma que muestra información detallada sobre los lanzamientos de SpaceX, incluyendo el resultado y descripción de cada misión.",
       "highlights": [
         "Actualizaciones en tiempo real",
