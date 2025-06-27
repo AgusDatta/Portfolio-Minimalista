@@ -293,7 +293,7 @@
     },
     {
       "name": "Fake-Shop",
-      "isActive": false,
+      "isActive": true,
       "description": "E-commerce simulado con carrito y datos de FakeStore API. Hecho con HTML5, CSS3 y JavaScript.",
       "highlights": [
         "Interfaz de tienda online",
