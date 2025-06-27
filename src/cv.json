@@ -292,24 +292,34 @@
       "url": "https://totacomputacion.netlify.app/"
     },
     {
-      "name": "SpaceX Launches",
+      "name": "Fake-Shop",
       "isActive": false,
-      "description": "Plataforma que muestra información detallada sobre los lanzamientos de SpaceX, incluyendo el resultado y descripción de cada misión.",
-      "highlights": [
-        "Actualizaciones en tiempo real",
-        "Información detallada"
-      ],
-      "url": "https://astrospacex-launches.netlify.app/"
-    },
-    {
-      "name": "Fake Shop",
-      "isActive": true,
-      "description": "E-commerce ficticio donde los usuarios pueden explorar productos, ver precios y simular compras.",
+      "description": "E-commerce simulado con carrito y datos de FakeStore API. Hecho con HTML5, CSS3 y JavaScript.",
       "highlights": [
         "Interfaz de tienda online",
         "Productos ficticios"
       ],
       "url": "https://fakeshopistea.netlify.app/"
+    },
+    {
+      "name": "Generador de Curriculums",
+      "isActive": true,
+      "description": "Aplicación web para generar curriculums de manera sencilla y rápida.",
+      "highlights": [
+        "Interfaz amigable",
+        "Plantillas personalizables"
+      ],
+      "url": "https://generador-curriculumvitae.netlify.app/"
+    },
+        {
+      "name": "Finanzas Personales",
+      "isActive": true,
+      "description": "Aplicación web para la gestión de finanzas personales, permitiendo el seguimiento de gastos e ingresos.",
+      "highlights": [
+        "Interfaz amigable",
+        "Reportes de gastos"
+      ],
+      "url": "https://dashfinanzaspersonales.netlify.app/"
     }
   ]
   }
